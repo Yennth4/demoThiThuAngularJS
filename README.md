@@ -1,4 +1,4 @@
 # Đề thi thử AngularJS
-Chạy npm start trong teminal 
-Chạy live sever trong index.html 
-Thực hiện các hoạt động Thêm Sửa Xóa 
+Chạy npm start trong teminal <br>
+Chạy live sever trong index.html <br>
+Thực hiện các hoạt động Thêm Sửa Xóa <br>
