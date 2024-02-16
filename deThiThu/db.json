@@ -1,0 +1,32 @@
+{
+  "phone": [
+    {
+      "id": "1",
+      "ten": "Iphone 11 Promax",
+      "hang": "Iphone",
+      "gia": "1",
+      "ngay_san_xuat": "2024-02-01T17:00:00.000Z"
+    },
+    {
+      "id": "b054",
+      "ten": "Iphone 5",
+      "hang": "Iphone",
+      "gia": "101",
+      "ngay_san_xuat": "2024-02-16T17:00:00.000Z"
+    },
+    {
+      "id": "11d3",
+      "ten": "Samsung Galaxy 2S",
+      "hang": "Samsung",
+      "gia": "1000",
+      "ngay_san_xuat": "2024-02-16T17:00:00.000Z"
+    },
+    {
+      "id": "7a38",
+      "ten": "Oppo 10S",
+      "hang": "Oppo",
+      "gia": "101",
+      "ngay_san_xuat": "2024-02-01T17:00:00.000Z"
+    }
+  ]
+}

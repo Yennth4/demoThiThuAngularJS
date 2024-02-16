@@ -1,0 +1,36 @@
+<h1 ng-bind="title" class="text-center mt-3"></h1>
+<form>
+    <div class="mb-3">
+        <label class="form-label">ID</label>
+        <input type="text" placeholder="Nhập id" class="form-control" disabled ng-model="phone.id">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Tên</label>
+        <input type="text" placeholder="Nhập tên" class="form-control" disabled ng-model="phone.ten">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Hãng</label>
+        <select disabled ng-model="phone.hang" class="form-select">
+            <option value="" disabled>Chọn điện thoại</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Oppo">Oppo</option>
+            <option value="Iphone">Iphone</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Giá</label>
+        <input type="text" placeholder="Nhập giá" class="form-control" disabled ng-model="phone.gia">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Ngày sản xuất</label>
+        <input type="date" class="form-control" disabled ng-model="phone.ngay_san_xuat">
+    </div>
+    <div class="mb-3 text-center">
+        <a href="#!/phone/edit/{{phone.id}}">
+            <button class="btn btn-primary">Chỉnh sửa</button>
+        </a>
+        <a href="#!/list-phone">
+            <button class="btn btn-warning">Quay lại</button>
+        </a>
+    </div>
+  </form>

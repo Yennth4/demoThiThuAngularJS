@@ -1,0 +1,36 @@
+<h1 ng-bind="title" class="text-center mt-3"></h1>
+<form ng-submit="editPhone()">
+    <div class="mb-3">
+        <label class="form-label">ID</label>
+        <input type="text" placeholder="Nhập id" class="form-control" ng-model="phone.id">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Tên</label>
+        <input type="text" placeholder="Nhập tên" class="form-control" ng-model="phone.ten">
+        <p ng-if="kiemTra.ten" class="text-danger mt-1">Vui lòng nhập tên</p>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Hãng</label>
+        <select ng-model="phone.hang" class="form-select">
+            <option value="" disabled>Chọn điện thoại</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Oppo">Oppo</option>
+            <option value="Iphone">Iphone</option>
+        </select>
+        <p ng-if="kiemTra.hang" class="text-danger mt-1">Vui lòng chọn hãng</p>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Giá</label>
+        <input type="text" placeholder="Nhập giá" class="form-control" ng-model="phone.gia">
+        <p ng-if="kiemTra.gia" class="text-danger mt-1">Vui lòng nhập giá</p>
+        <p ng-if="kiemTra.giaMin" class="text-danger mt-1">Giá phải là số nguyên lớn hơn 100</p>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Ngày sản xuất</label>
+        <input type="date" class="form-control" ng-model="phone.ngay_san_xuat">
+        <p ng-if="kiemTra.ngay_san_xuat" class="text-danger mt-1">Vui lòng nhập ngày sản xuất</p>
+    </div>
+    <div class="mb-3 text-center">
+        <button class="btn btn-secondary">Chỉnh sửa điện thoại</button>
+    </div>
+  </form>
